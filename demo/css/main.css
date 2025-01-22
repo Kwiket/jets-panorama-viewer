@@ -1,0 +1,76 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#viewer {
+  width: 100%;
+  height: 100%;
+}
+
+.blue-button {
+  height: 70px;
+  width: 300px;
+  background-color: transparent;
+  background-image: url('../img/button.svg');
+  background-size: 100% 100%;
+  border: 0;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 5px;
+}
+
+.suitcase {
+  height: 200px;
+  width: 300px;
+  background-color: transparent;
+  background-image: url('../img/suitcase.svg');
+  background-size: 100% 100%;
+  border: 0;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+.suitcase-details {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+.seat-features {
+  max-width: 500px;
+  color: white;
+  font-size: 36px;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+}
+
+.seat-pitch {
+  max-width: 600px;
+  color: white;
+  font-size: 36px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.seat-width {
+  max-width: 500px;
+  color: white;
+  font-size: 36px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.baggage-container {
+  max-width: 300px;
+  color: white;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+}
